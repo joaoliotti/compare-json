@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "compare.js",
   "scripts": {
-    "dev": "node compare.js"
+    "dev": "node src/compare.js"
   },
   "keywords": [],
   "author": "João Liotti",

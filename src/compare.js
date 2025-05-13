@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Carrega os dois arquivos JSON
-const json1 = JSON.parse(fs.readFileSync('example1.json', 'utf-8'));
-const json2 = JSON.parse(fs.readFileSync('example2.json', 'utf-8'));
+const json1 = JSON.parse(fs.readFileSync('./example1.json', 'utf-8'));
+const json2 = JSON.parse(fs.readFileSync('./example2.json', 'utf-8'));
 
 // Função para comparar dois arrays de arrays
 function compararArrays(arr1, arr2) {
