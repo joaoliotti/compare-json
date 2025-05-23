@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Lê o JSON principal com a chave "lente"
-const json = JSON.parse(fs.readFileSync('hoyaMultiMDO.json', 'utf-8'));
+const json = JSON.parse(fs.readFileSync('example1.json', 'utf-8'));
 
 const resultado = [];
 
